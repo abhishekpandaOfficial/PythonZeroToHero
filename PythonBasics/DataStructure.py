@@ -13,8 +13,8 @@ prod_cart.append("One Plus")
 print(f"Now the Products are : {prod_cart}")
 
 # Removing New item to the Cart
-# prod_cart.remove("Samsung")
-# print(f"Now the Products are : {prod_cart}")
+prod_cart.remove("Samsung")
+print(f"Now the Products are : {prod_cart}")
 
 #Slicing Elements in Lists
 print(f"Before Slicing the Products are in the Cart : {prod_cart}") #O/p = ['IPhone', 'Samsung', 'Oppo', 'Vivo', 'One Plus']
